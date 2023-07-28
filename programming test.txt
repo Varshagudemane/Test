@@ -1,0 +1,125 @@
+7)class Clothes{
+ static String brand;
+ static String color;
+ int price=660;
+ String location="bangalore";
+
+Clothes(){
+super()
+}
+Clothes(String brand){
+System.out.println("invoking main in clothes");
+this();
+this.brand=brand;
+}
+Clothes(String brand,String color){
+system.out.println("invoking main in clothes");
+this(brand);
+this.color=color;
+}
+Clothes (String brand,String color,int price){
+System.out.println("invoking main in clothes);
+this(brand,color)
+this.price=price;
+}
+Clothes(String brand,String color,int price, String location){
+this(brand,color,price);
+this.location=location;
+}
+static void printstatic{
+system.out.println(brand);
+system.out.println(color);
+}
+void instatiation{
+system.out.println(price);
+System.out.println(location);
+}
+
+class ClothesRunner{
+public static void main(String[] args){
+Clothes clothes=new Clothes();
+system.out.println(brand);
+System.out.println(color);
+System.out.println(price);
+System.out.println(location);
+
+Clothes printstatic();
+clothes instantiation();
+}
+}
+
+2) variables are defined as storing information or values.
+  their 3 types of variables
+1)local variable
+2)instance variable
+3)static variable
+
+1)local variables
+local variables are defined as declaring a method within body is called local variables.
+ex)class food{
+   String name="roti";
+}
+
+2)instance variables
+variables declaring within a method
+ex) class food{
+public static void main(String[] args){
+int price=50;
+}
+
+
+4)class Bat{
+String name="divya";
+int price;
+
+Bat(){
+system.out.println("invoking no-arg const method");
+}
+Bat(String name)
+{
+System.out.println(name);
+ref.name=ref(varun);
+this.name=name;
+}
+Bat(String name,int price){
+System.out.println(name);
+System.out.println(price);
+this.name=name;
+this.price=price;
+}
+}
+
+class BatRunner{
+public static void main(String[] args){
+
+Bat bat=new Bat();
+System.out.println("bat"+name);
+Bat bat1=new Bat();
+System.out.println("bat1"+price);
+}
+}
+
+
+5)class Chair{
+stastic String color="red";
+static int price=350;
+
+static void color(){
+System.out.println("invoking main in chair");
+this.color=color;
+}
+static void price(){
+System.out.println("invoking main chair");
+this.color=color;
+this.price=price;
+}
+class ChairRunner{
+public static void main(string[] args){
+
+Chair chair=new Chair();
+System.out.println("chair",+black);
+
+Chair chair1=new Chair();
+System.out.println("chair2"+450);
+}
+}
